@@ -1,0 +1,3 @@
+C:/Users/desmo/Documents/UnityVRTheremin/build-android/CMakeFiles/addlib.dir
+C:/Users/desmo/Documents/UnityVRTheremin/build-android/CMakeFiles/edit_cache.dir
+C:/Users/desmo/Documents/UnityVRTheremin/build-android/CMakeFiles/rebuild_cache.dir
