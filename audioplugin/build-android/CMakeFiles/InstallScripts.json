@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"C:/Users/desmo/Documents/UnityVRTheremin/build-android/cmake_install.cmake"
+		"C:/Users/desmo/Documents/UnityVRTheremin/audioplugin/build-android/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

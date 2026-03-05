@@ -1,9 +1,14 @@
 cmake_minimum_required(VERSION 3.22)
-project(testlib LANGUAGES C CXX)
 
-add_library(addlib SHARED addlib.cpp)
+project(AudioPluginOscillator)
 
-set_target_properties(addlib PROPERTIES
-    CXX_STANDARD 17
-    CXX_STANDARD_REQUIRED YES
+set(CMAKE_CXX_STANDARD 17)
+
+add_library(AudioPluginOscillator SHARED
+    Oscillator.cpp
+    NativeAudioPlugins/NativeCode/AudioPluginUtil.cpp
+)
+
+target_include_directories(AudioPluginOscillator PRIVATE
+    NativeAudioPlugins/NativeCode
 )

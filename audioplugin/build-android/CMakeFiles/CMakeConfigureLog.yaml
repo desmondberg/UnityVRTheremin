@@ -8,7 +8,7 @@ events:
       - "CMakeLists.txt:2 (project)"
     message: |
       The target system is: Android - 1 - aarch64
-      The host system is: Windows - 10.0.26100 - AMD64
+      The host system is: Windows - 10.0.26200 - AMD64
   -
     kind: "find-v1"
     backtrace:
@@ -39,6 +39,7 @@ events:
       - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/"
       - "C:/Python313/Scripts/"
       - "C:/Python313/"
@@ -62,6 +63,7 @@ events:
       - "C:/Users/desmo/AppData/Roaming/npm/"
       - "C:/Program Files/heroku/bin/"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/"
       - "C:/Program Files/Git/usr/bin/vendor_perl/"
       - "C:/Program Files/Git/usr/bin/core_perl/"
       - "/usr/lib/aarch64-linux-android/29/bin/"
@@ -149,6 +151,15 @@ events:
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/samu.com"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/samu.exe"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/samu"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/ninja-build.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/ninja-build.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/ninja-build"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/ninja.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/ninja.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/ninja"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/samu.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/samu.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/samu"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/ninja-build.com"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/ninja-build.exe"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/ninja-build"
@@ -267,6 +278,7 @@ events:
         - "C:\\Users\\desmo\\bin"
         - "C:\\Users\\desmo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
         - "C:\\Users\\desmo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files\\Meta Horizon\\Support\\oculus-runtime"
         - "C:\\Python313\\Scripts"
         - "C:\\Python313"
@@ -306,6 +318,7 @@ events:
         - "C:\\Program Files\\heroku\\bin"
         - "C:\\Users\\desmo\\AppData\\Local\\Android\\Sdk\\platform-tools"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Java\\jdk-25.0.2\\bin"
         - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
         - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
       CMAKE_SYSTEM_PREFIX_PATH:
@@ -351,6 +364,7 @@ events:
         - "C:\\Users\\desmo\\bin"
         - "C:\\Users\\desmo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
         - "C:\\Users\\desmo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files\\Meta Horizon\\Support\\oculus-runtime"
         - "C:\\Python313\\Scripts"
         - "C:\\Python313"
@@ -390,6 +404,7 @@ events:
         - "C:\\Program Files\\heroku\\bin"
         - "C:\\Users\\desmo\\AppData\\Local\\Android\\Sdk\\platform-tools"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Java\\jdk-25.0.2\\bin"
         - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
         - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
       CMAKE_SYSTEM_PREFIX_PATH:
@@ -416,7 +431,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
       
       The C compiler identification is Clang, found in:
-        C:/Users/desmo/Documents/UnityVRTheremin/build-android/CMakeFiles/4.3.0-rc1/CompilerIdC/CMakeCCompilerId.o
+        C:/Users/desmo/Documents/UnityVRTheremin/audioplugin/build-android/CMakeFiles/4.3.0-rc1/CompilerIdC/CMakeCCompilerId.o
       
   -
     kind: "find-v1"
@@ -446,6 +461,7 @@ events:
       - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/"
       - "C:/Python313/Scripts/"
       - "C:/Python313/"
@@ -469,6 +485,7 @@ events:
       - "C:/Users/desmo/AppData/Roaming/npm/"
       - "C:/Program Files/heroku/bin/"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/"
       - "C:/Program Files/Git/usr/bin/vendor_perl/"
       - "C:/Program Files/Git/usr/bin/core_perl/"
       - "/usr/lib/aarch64-linux-android/29/bin/"
@@ -491,6 +508,7 @@ events:
         - "C:\\Users\\desmo\\bin"
         - "C:\\Users\\desmo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
         - "C:\\Users\\desmo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files\\Meta Horizon\\Support\\oculus-runtime"
         - "C:\\Python313\\Scripts"
         - "C:\\Python313"
@@ -530,6 +548,7 @@ events:
         - "C:\\Program Files\\heroku\\bin"
         - "C:\\Users\\desmo\\AppData\\Local\\Android\\Sdk\\platform-tools"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Java\\jdk-25.0.2\\bin"
         - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
         - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
       CMAKE_SYSTEM_PREFIX_PATH:
@@ -564,6 +583,7 @@ events:
       - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/"
       - "C:/Python313/Scripts/"
       - "C:/Python313/"
@@ -587,6 +607,7 @@ events:
       - "C:/Users/desmo/AppData/Roaming/npm/"
       - "C:/Program Files/heroku/bin/"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/"
       - "C:/Program Files/Git/usr/bin/vendor_perl/"
       - "C:/Program Files/Git/usr/bin/core_perl/"
       - "/usr/lib/aarch64-linux-android/29/bin/"
@@ -609,6 +630,7 @@ events:
         - "C:\\Users\\desmo\\bin"
         - "C:\\Users\\desmo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
         - "C:\\Users\\desmo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files\\Meta Horizon\\Support\\oculus-runtime"
         - "C:\\Python313\\Scripts"
         - "C:\\Python313"
@@ -648,6 +670,7 @@ events:
         - "C:\\Program Files\\heroku\\bin"
         - "C:\\Users\\desmo\\AppData\\Local\\Android\\Sdk\\platform-tools"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Java\\jdk-25.0.2\\bin"
         - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
         - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
       CMAKE_SYSTEM_PREFIX_PATH:
@@ -682,6 +705,7 @@ events:
       - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/"
       - "C:/Python313/Scripts/"
       - "C:/Python313/"
@@ -705,6 +729,7 @@ events:
       - "C:/Users/desmo/AppData/Roaming/npm/"
       - "C:/Program Files/heroku/bin/"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/"
       - "C:/Program Files/Git/usr/bin/vendor_perl/"
       - "C:/Program Files/Git/usr/bin/core_perl/"
       - "/usr/lib/aarch64-linux-android/29/bin/"
@@ -727,6 +752,7 @@ events:
         - "C:\\Users\\desmo\\bin"
         - "C:\\Users\\desmo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
         - "C:\\Users\\desmo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files\\Meta Horizon\\Support\\oculus-runtime"
         - "C:\\Python313\\Scripts"
         - "C:\\Python313"
@@ -766,6 +792,7 @@ events:
         - "C:\\Program Files\\heroku\\bin"
         - "C:\\Users\\desmo\\AppData\\Local\\Android\\Sdk\\platform-tools"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Java\\jdk-25.0.2\\bin"
         - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
         - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
       CMAKE_SYSTEM_PREFIX_PATH:
@@ -800,6 +827,7 @@ events:
       - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/"
       - "C:/Python313/Scripts/"
       - "C:/Python313/"
@@ -823,6 +851,7 @@ events:
       - "C:/Users/desmo/AppData/Roaming/npm/"
       - "C:/Program Files/heroku/bin/"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/"
       - "C:/Program Files/Git/usr/bin/vendor_perl/"
       - "C:/Program Files/Git/usr/bin/core_perl/"
       - "/usr/lib/aarch64-linux-android/29/bin/"
@@ -845,6 +874,7 @@ events:
         - "C:\\Users\\desmo\\bin"
         - "C:\\Users\\desmo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
         - "C:\\Users\\desmo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files\\Meta Horizon\\Support\\oculus-runtime"
         - "C:\\Python313\\Scripts"
         - "C:\\Python313"
@@ -884,6 +914,7 @@ events:
         - "C:\\Program Files\\heroku\\bin"
         - "C:\\Users\\desmo\\AppData\\Local\\Android\\Sdk\\platform-tools"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Java\\jdk-25.0.2\\bin"
         - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
         - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
       CMAKE_SYSTEM_PREFIX_PATH:
@@ -918,6 +949,7 @@ events:
       - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/"
       - "C:/Python313/Scripts/"
       - "C:/Python313/"
@@ -941,6 +973,7 @@ events:
       - "C:/Users/desmo/AppData/Roaming/npm/"
       - "C:/Program Files/heroku/bin/"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/"
       - "C:/Program Files/Git/usr/bin/vendor_perl/"
       - "C:/Program Files/Git/usr/bin/core_perl/"
       - "/usr/lib/aarch64-linux-android/29/bin/"
@@ -963,6 +996,7 @@ events:
         - "C:\\Users\\desmo\\bin"
         - "C:\\Users\\desmo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
         - "C:\\Users\\desmo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files\\Meta Horizon\\Support\\oculus-runtime"
         - "C:\\Python313\\Scripts"
         - "C:\\Python313"
@@ -1002,6 +1036,7 @@ events:
         - "C:\\Program Files\\heroku\\bin"
         - "C:\\Users\\desmo\\AppData\\Local\\Android\\Sdk\\platform-tools"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Java\\jdk-25.0.2\\bin"
         - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
         - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
       CMAKE_SYSTEM_PREFIX_PATH:
@@ -1036,6 +1071,7 @@ events:
       - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/"
       - "C:/Python313/Scripts/"
       - "C:/Python313/"
@@ -1059,6 +1095,7 @@ events:
       - "C:/Users/desmo/AppData/Roaming/npm/"
       - "C:/Program Files/heroku/bin/"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/"
       - "C:/Program Files/Git/usr/bin/vendor_perl/"
       - "C:/Program Files/Git/usr/bin/core_perl/"
       - "/usr/lib/aarch64-linux-android/29/bin/"
@@ -1081,6 +1118,7 @@ events:
         - "C:\\Users\\desmo\\bin"
         - "C:\\Users\\desmo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
         - "C:\\Users\\desmo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files\\Meta Horizon\\Support\\oculus-runtime"
         - "C:\\Python313\\Scripts"
         - "C:\\Python313"
@@ -1120,6 +1158,7 @@ events:
         - "C:\\Program Files\\heroku\\bin"
         - "C:\\Users\\desmo\\AppData\\Local\\Android\\Sdk\\platform-tools"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Java\\jdk-25.0.2\\bin"
         - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
         - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
       CMAKE_SYSTEM_PREFIX_PATH:
@@ -1154,6 +1193,7 @@ events:
       - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/"
       - "C:/Python313/Scripts/"
       - "C:/Python313/"
@@ -1177,6 +1217,7 @@ events:
       - "C:/Users/desmo/AppData/Roaming/npm/"
       - "C:/Program Files/heroku/bin/"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/"
       - "C:/Program Files/Git/usr/bin/vendor_perl/"
       - "C:/Program Files/Git/usr/bin/core_perl/"
       - "/usr/lib/aarch64-linux-android/29/bin/"
@@ -1199,6 +1240,7 @@ events:
         - "C:\\Users\\desmo\\bin"
         - "C:\\Users\\desmo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
         - "C:\\Users\\desmo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files\\Meta Horizon\\Support\\oculus-runtime"
         - "C:\\Python313\\Scripts"
         - "C:\\Python313"
@@ -1238,6 +1280,7 @@ events:
         - "C:\\Program Files\\heroku\\bin"
         - "C:\\Users\\desmo\\AppData\\Local\\Android\\Sdk\\platform-tools"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Java\\jdk-25.0.2\\bin"
         - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
         - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
       CMAKE_SYSTEM_PREFIX_PATH:
@@ -1271,6 +1314,7 @@ events:
       - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/"
       - "C:/Python313/Scripts/"
       - "C:/Python313/"
@@ -1294,6 +1338,7 @@ events:
       - "C:/Users/desmo/AppData/Roaming/npm/"
       - "C:/Program Files/heroku/bin/"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/"
       - "C:/Program Files/Git/usr/bin/vendor_perl/"
       - "C:/Program Files/Git/usr/bin/core_perl/"
       - "/usr/lib/aarch64-linux-android/29/bin/"
@@ -1321,6 +1366,9 @@ events:
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/tapi.com"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/tapi.exe"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/tapi"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/tapi.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/tapi.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/tapi"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/tapi.com"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/tapi.exe"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/tapi"
@@ -1390,6 +1438,9 @@ events:
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/tapi.com"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/tapi.exe"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/tapi"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/tapi.com"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/tapi.exe"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/tapi"
       - "C:/Program Files/Git/usr/bin/vendor_perl/tapi.com"
       - "C:/Program Files/Git/usr/bin/vendor_perl/tapi.exe"
       - "C:/Program Files/Git/usr/bin/vendor_perl/tapi"
@@ -1420,6 +1471,7 @@ events:
         - "C:\\Users\\desmo\\bin"
         - "C:\\Users\\desmo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
         - "C:\\Users\\desmo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files\\Meta Horizon\\Support\\oculus-runtime"
         - "C:\\Python313\\Scripts"
         - "C:\\Python313"
@@ -1459,6 +1511,7 @@ events:
         - "C:\\Program Files\\heroku\\bin"
         - "C:\\Users\\desmo\\AppData\\Local\\Android\\Sdk\\platform-tools"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Java\\jdk-25.0.2\\bin"
         - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
         - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
       CMAKE_SYSTEM_PREFIX_PATH:
@@ -1495,6 +1548,7 @@ events:
       - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/"
       - "C:/Python313/Scripts/"
       - "C:/Python313/"
@@ -1518,6 +1572,7 @@ events:
       - "C:/Users/desmo/AppData/Roaming/npm/"
       - "C:/Program Files/heroku/bin/"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/"
       - "C:/Program Files/Git/usr/bin/vendor_perl/"
       - "C:/Program Files/Git/usr/bin/core_perl/"
       - "/usr/lib/aarch64-linux-android/29/bin/"
@@ -1545,6 +1600,9 @@ events:
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar-21.0.com"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar-21.0.exe"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar-21.0"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ar-21.0.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ar-21.0.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ar-21.0"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/llvm-ar-21.0.com"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/llvm-ar-21.0.exe"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/llvm-ar-21.0"
@@ -1614,6 +1672,9 @@ events:
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/llvm-ar-21.0.com"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/llvm-ar-21.0.exe"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/llvm-ar-21.0"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/llvm-ar-21.0.com"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/llvm-ar-21.0.exe"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/llvm-ar-21.0"
       - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ar-21.0.com"
       - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ar-21.0.exe"
       - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ar-21.0"
@@ -1650,6 +1711,9 @@ events:
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar-21.com"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar-21.exe"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar-21"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ar-21.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ar-21.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ar-21"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/llvm-ar-21.com"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/llvm-ar-21.exe"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/llvm-ar-21"
@@ -1719,6 +1783,9 @@ events:
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/llvm-ar-21.com"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/llvm-ar-21.exe"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/llvm-ar-21"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/llvm-ar-21.com"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/llvm-ar-21.exe"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/llvm-ar-21"
       - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ar-21.com"
       - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ar-21.exe"
       - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ar-21"
@@ -1755,6 +1822,9 @@ events:
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar21.com"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar21.exe"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar21"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ar21.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ar21.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ar21"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/llvm-ar21.com"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/llvm-ar21.exe"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/llvm-ar21"
@@ -1824,6 +1894,9 @@ events:
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/llvm-ar21.com"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/llvm-ar21.exe"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/llvm-ar21"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/llvm-ar21.com"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/llvm-ar21.exe"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/llvm-ar21"
       - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ar21.com"
       - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ar21.exe"
       - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ar21"
@@ -1855,6 +1928,7 @@ events:
         - "C:\\Users\\desmo\\bin"
         - "C:\\Users\\desmo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
         - "C:\\Users\\desmo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files\\Meta Horizon\\Support\\oculus-runtime"
         - "C:\\Python313\\Scripts"
         - "C:\\Python313"
@@ -1894,6 +1968,7 @@ events:
         - "C:\\Program Files\\heroku\\bin"
         - "C:\\Users\\desmo\\AppData\\Local\\Android\\Sdk\\platform-tools"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Java\\jdk-25.0.2\\bin"
         - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
         - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
       CMAKE_SYSTEM_PREFIX_PATH:
@@ -1930,6 +2005,7 @@ events:
       - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/"
       - "C:/Python313/Scripts/"
       - "C:/Python313/"
@@ -1953,6 +2029,7 @@ events:
       - "C:/Users/desmo/AppData/Roaming/npm/"
       - "C:/Program Files/heroku/bin/"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/"
       - "C:/Program Files/Git/usr/bin/vendor_perl/"
       - "C:/Program Files/Git/usr/bin/core_perl/"
       - "/usr/lib/aarch64-linux-android/29/bin/"
@@ -1980,6 +2057,9 @@ events:
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib-21.0.com"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib-21.0.exe"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib-21.0"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ranlib-21.0.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ranlib-21.0.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ranlib-21.0"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/llvm-ranlib-21.0.com"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/llvm-ranlib-21.0.exe"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/llvm-ranlib-21.0"
@@ -2049,6 +2129,9 @@ events:
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/llvm-ranlib-21.0.com"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/llvm-ranlib-21.0.exe"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/llvm-ranlib-21.0"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/llvm-ranlib-21.0.com"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/llvm-ranlib-21.0.exe"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/llvm-ranlib-21.0"
       - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ranlib-21.0.com"
       - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ranlib-21.0.exe"
       - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ranlib-21.0"
@@ -2085,6 +2168,9 @@ events:
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib-21.com"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib-21.exe"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib-21"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ranlib-21.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ranlib-21.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ranlib-21"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/llvm-ranlib-21.com"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/llvm-ranlib-21.exe"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/llvm-ranlib-21"
@@ -2154,6 +2240,9 @@ events:
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/llvm-ranlib-21.com"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/llvm-ranlib-21.exe"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/llvm-ranlib-21"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/llvm-ranlib-21.com"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/llvm-ranlib-21.exe"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/llvm-ranlib-21"
       - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ranlib-21.com"
       - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ranlib-21.exe"
       - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ranlib-21"
@@ -2190,6 +2279,9 @@ events:
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib21.com"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib21.exe"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib21"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ranlib21.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ranlib21.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ranlib21"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/llvm-ranlib21.com"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/llvm-ranlib21.exe"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/llvm-ranlib21"
@@ -2259,6 +2351,9 @@ events:
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/llvm-ranlib21.com"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/llvm-ranlib21.exe"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/llvm-ranlib21"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/llvm-ranlib21.com"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/llvm-ranlib21.exe"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/llvm-ranlib21"
       - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ranlib21.com"
       - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ranlib21.exe"
       - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ranlib21"
@@ -2290,6 +2385,7 @@ events:
         - "C:\\Users\\desmo\\bin"
         - "C:\\Users\\desmo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
         - "C:\\Users\\desmo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files\\Meta Horizon\\Support\\oculus-runtime"
         - "C:\\Python313\\Scripts"
         - "C:\\Python313"
@@ -2329,6 +2425,7 @@ events:
         - "C:\\Program Files\\heroku\\bin"
         - "C:\\Users\\desmo\\AppData\\Local\\Android\\Sdk\\platform-tools"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Java\\jdk-25.0.2\\bin"
         - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
         - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
       CMAKE_SYSTEM_PREFIX_PATH:
@@ -2365,6 +2462,7 @@ events:
       - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/"
       - "C:/Python313/Scripts/"
       - "C:/Python313/"
@@ -2388,6 +2486,7 @@ events:
       - "C:/Users/desmo/AppData/Roaming/npm/"
       - "C:/Program Files/heroku/bin/"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/"
       - "C:/Program Files/Git/usr/bin/vendor_perl/"
       - "C:/Program Files/Git/usr/bin/core_perl/"
       - "/usr/lib/aarch64-linux-android/29/bin/"
@@ -2415,6 +2514,9 @@ events:
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang-scan-deps-21.0.com"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang-scan-deps-21.0.exe"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang-scan-deps-21.0"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/clang-scan-deps-21.0.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/clang-scan-deps-21.0.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/clang-scan-deps-21.0"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/clang-scan-deps-21.0.com"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/clang-scan-deps-21.0.exe"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/clang-scan-deps-21.0"
@@ -2484,6 +2586,9 @@ events:
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/clang-scan-deps-21.0.com"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/clang-scan-deps-21.0.exe"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/clang-scan-deps-21.0"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/clang-scan-deps-21.0.com"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/clang-scan-deps-21.0.exe"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/clang-scan-deps-21.0"
       - "C:/Program Files/Git/usr/bin/vendor_perl/clang-scan-deps-21.0.com"
       - "C:/Program Files/Git/usr/bin/vendor_perl/clang-scan-deps-21.0.exe"
       - "C:/Program Files/Git/usr/bin/vendor_perl/clang-scan-deps-21.0"
@@ -2520,6 +2625,9 @@ events:
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang-scan-deps-21.com"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang-scan-deps-21.exe"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang-scan-deps-21"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/clang-scan-deps-21.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/clang-scan-deps-21.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/clang-scan-deps-21"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/clang-scan-deps-21.com"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/clang-scan-deps-21.exe"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/clang-scan-deps-21"
@@ -2589,6 +2697,9 @@ events:
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/clang-scan-deps-21.com"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/clang-scan-deps-21.exe"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/clang-scan-deps-21"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/clang-scan-deps-21.com"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/clang-scan-deps-21.exe"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/clang-scan-deps-21"
       - "C:/Program Files/Git/usr/bin/vendor_perl/clang-scan-deps-21.com"
       - "C:/Program Files/Git/usr/bin/vendor_perl/clang-scan-deps-21.exe"
       - "C:/Program Files/Git/usr/bin/vendor_perl/clang-scan-deps-21"
@@ -2625,6 +2736,9 @@ events:
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang-scan-deps21.com"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang-scan-deps21.exe"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang-scan-deps21"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/clang-scan-deps21.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/clang-scan-deps21.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/clang-scan-deps21"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/clang-scan-deps21.com"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/clang-scan-deps21.exe"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/clang-scan-deps21"
@@ -2694,6 +2808,9 @@ events:
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/clang-scan-deps21.com"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/clang-scan-deps21.exe"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/clang-scan-deps21"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/clang-scan-deps21.com"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/clang-scan-deps21.exe"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/clang-scan-deps21"
       - "C:/Program Files/Git/usr/bin/vendor_perl/clang-scan-deps21.com"
       - "C:/Program Files/Git/usr/bin/vendor_perl/clang-scan-deps21.exe"
       - "C:/Program Files/Git/usr/bin/vendor_perl/clang-scan-deps21"
@@ -2725,6 +2842,7 @@ events:
         - "C:\\Users\\desmo\\bin"
         - "C:\\Users\\desmo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
         - "C:\\Users\\desmo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files\\Meta Horizon\\Support\\oculus-runtime"
         - "C:\\Python313\\Scripts"
         - "C:\\Python313"
@@ -2764,6 +2882,7 @@ events:
         - "C:\\Program Files\\heroku\\bin"
         - "C:\\Users\\desmo\\AppData\\Local\\Android\\Sdk\\platform-tools"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Java\\jdk-25.0.2\\bin"
         - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
         - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
       CMAKE_SYSTEM_PREFIX_PATH:
@@ -2809,6 +2928,7 @@ events:
         - "C:\\Users\\desmo\\bin"
         - "C:\\Users\\desmo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
         - "C:\\Users\\desmo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files\\Meta Horizon\\Support\\oculus-runtime"
         - "C:\\Python313\\Scripts"
         - "C:\\Python313"
@@ -2848,6 +2968,7 @@ events:
         - "C:\\Program Files\\heroku\\bin"
         - "C:\\Users\\desmo\\AppData\\Local\\Android\\Sdk\\platform-tools"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Java\\jdk-25.0.2\\bin"
         - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
         - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
       CMAKE_SYSTEM_PREFIX_PATH:
@@ -2874,7 +2995,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
       
       The CXX compiler identification is Clang, found in:
-        C:/Users/desmo/Documents/UnityVRTheremin/build-android/CMakeFiles/4.3.0-rc1/CompilerIdCXX/CMakeCXXCompilerId.o
+        C:/Users/desmo/Documents/UnityVRTheremin/audioplugin/build-android/CMakeFiles/4.3.0-rc1/CompilerIdCXX/CMakeCXXCompilerId.o
       
   -
     kind: "find-v1"
@@ -2906,6 +3027,7 @@ events:
       - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/"
       - "C:/Python313/Scripts/"
       - "C:/Python313/"
@@ -2929,6 +3051,7 @@ events:
       - "C:/Users/desmo/AppData/Roaming/npm/"
       - "C:/Program Files/heroku/bin/"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/"
       - "C:/Program Files/Git/usr/bin/vendor_perl/"
       - "C:/Program Files/Git/usr/bin/core_perl/"
       - "/usr/lib/aarch64-linux-android/29/bin/"
@@ -2956,6 +3079,9 @@ events:
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar-21.0.com"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar-21.0.exe"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar-21.0"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ar-21.0.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ar-21.0.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ar-21.0"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/llvm-ar-21.0.com"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/llvm-ar-21.0.exe"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/llvm-ar-21.0"
@@ -3025,6 +3151,9 @@ events:
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/llvm-ar-21.0.com"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/llvm-ar-21.0.exe"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/llvm-ar-21.0"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/llvm-ar-21.0.com"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/llvm-ar-21.0.exe"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/llvm-ar-21.0"
       - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ar-21.0.com"
       - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ar-21.0.exe"
       - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ar-21.0"
@@ -3061,6 +3190,9 @@ events:
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar-21.com"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar-21.exe"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar-21"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ar-21.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ar-21.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ar-21"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/llvm-ar-21.com"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/llvm-ar-21.exe"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/llvm-ar-21"
@@ -3130,6 +3262,9 @@ events:
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/llvm-ar-21.com"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/llvm-ar-21.exe"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/llvm-ar-21"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/llvm-ar-21.com"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/llvm-ar-21.exe"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/llvm-ar-21"
       - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ar-21.com"
       - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ar-21.exe"
       - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ar-21"
@@ -3166,6 +3301,9 @@ events:
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar21.com"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar21.exe"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar21"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ar21.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ar21.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ar21"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/llvm-ar21.com"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/llvm-ar21.exe"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/llvm-ar21"
@@ -3235,6 +3373,9 @@ events:
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/llvm-ar21.com"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/llvm-ar21.exe"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/llvm-ar21"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/llvm-ar21.com"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/llvm-ar21.exe"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/llvm-ar21"
       - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ar21.com"
       - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ar21.exe"
       - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ar21"
@@ -3266,6 +3407,7 @@ events:
         - "C:\\Users\\desmo\\bin"
         - "C:\\Users\\desmo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
         - "C:\\Users\\desmo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files\\Meta Horizon\\Support\\oculus-runtime"
         - "C:\\Python313\\Scripts"
         - "C:\\Python313"
@@ -3305,6 +3447,7 @@ events:
         - "C:\\Program Files\\heroku\\bin"
         - "C:\\Users\\desmo\\AppData\\Local\\Android\\Sdk\\platform-tools"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Java\\jdk-25.0.2\\bin"
         - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
         - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
       CMAKE_SYSTEM_PREFIX_PATH:
@@ -3341,6 +3484,7 @@ events:
       - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/"
       - "C:/Python313/Scripts/"
       - "C:/Python313/"
@@ -3364,6 +3508,7 @@ events:
       - "C:/Users/desmo/AppData/Roaming/npm/"
       - "C:/Program Files/heroku/bin/"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/"
       - "C:/Program Files/Git/usr/bin/vendor_perl/"
       - "C:/Program Files/Git/usr/bin/core_perl/"
       - "/usr/lib/aarch64-linux-android/29/bin/"
@@ -3391,6 +3536,9 @@ events:
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib-21.0.com"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib-21.0.exe"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib-21.0"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ranlib-21.0.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ranlib-21.0.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ranlib-21.0"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/llvm-ranlib-21.0.com"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/llvm-ranlib-21.0.exe"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/llvm-ranlib-21.0"
@@ -3460,6 +3608,9 @@ events:
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/llvm-ranlib-21.0.com"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/llvm-ranlib-21.0.exe"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/llvm-ranlib-21.0"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/llvm-ranlib-21.0.com"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/llvm-ranlib-21.0.exe"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/llvm-ranlib-21.0"
       - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ranlib-21.0.com"
       - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ranlib-21.0.exe"
       - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ranlib-21.0"
@@ -3496,6 +3647,9 @@ events:
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib-21.com"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib-21.exe"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib-21"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ranlib-21.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ranlib-21.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ranlib-21"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/llvm-ranlib-21.com"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/llvm-ranlib-21.exe"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/llvm-ranlib-21"
@@ -3565,6 +3719,9 @@ events:
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/llvm-ranlib-21.com"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/llvm-ranlib-21.exe"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/llvm-ranlib-21"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/llvm-ranlib-21.com"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/llvm-ranlib-21.exe"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/llvm-ranlib-21"
       - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ranlib-21.com"
       - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ranlib-21.exe"
       - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ranlib-21"
@@ -3601,6 +3758,9 @@ events:
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib21.com"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib21.exe"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib21"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ranlib21.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ranlib21.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ranlib21"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/llvm-ranlib21.com"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/llvm-ranlib21.exe"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/llvm-ranlib21"
@@ -3670,6 +3830,9 @@ events:
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/llvm-ranlib21.com"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/llvm-ranlib21.exe"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/llvm-ranlib21"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/llvm-ranlib21.com"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/llvm-ranlib21.exe"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/llvm-ranlib21"
       - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ranlib21.com"
       - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ranlib21.exe"
       - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ranlib21"
@@ -3701,6 +3864,7 @@ events:
         - "C:\\Users\\desmo\\bin"
         - "C:\\Users\\desmo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
         - "C:\\Users\\desmo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files\\Meta Horizon\\Support\\oculus-runtime"
         - "C:\\Python313\\Scripts"
         - "C:\\Python313"
@@ -3740,6 +3904,7 @@ events:
         - "C:\\Program Files\\heroku\\bin"
         - "C:\\Users\\desmo\\AppData\\Local\\Android\\Sdk\\platform-tools"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Java\\jdk-25.0.2\\bin"
         - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
         - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
       CMAKE_SYSTEM_PREFIX_PATH:
@@ -3776,6 +3941,7 @@ events:
       - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/"
       - "C:/Python313/Scripts/"
       - "C:/Python313/"
@@ -3799,6 +3965,7 @@ events:
       - "C:/Users/desmo/AppData/Roaming/npm/"
       - "C:/Program Files/heroku/bin/"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/"
       - "C:/Program Files/Git/usr/bin/vendor_perl/"
       - "C:/Program Files/Git/usr/bin/core_perl/"
       - "/usr/lib/aarch64-linux-android/29/bin/"
@@ -3826,6 +3993,9 @@ events:
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang-scan-deps-21.0.com"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang-scan-deps-21.0.exe"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang-scan-deps-21.0"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/clang-scan-deps-21.0.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/clang-scan-deps-21.0.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/clang-scan-deps-21.0"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/clang-scan-deps-21.0.com"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/clang-scan-deps-21.0.exe"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/clang-scan-deps-21.0"
@@ -3895,6 +4065,9 @@ events:
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/clang-scan-deps-21.0.com"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/clang-scan-deps-21.0.exe"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/clang-scan-deps-21.0"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/clang-scan-deps-21.0.com"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/clang-scan-deps-21.0.exe"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/clang-scan-deps-21.0"
       - "C:/Program Files/Git/usr/bin/vendor_perl/clang-scan-deps-21.0.com"
       - "C:/Program Files/Git/usr/bin/vendor_perl/clang-scan-deps-21.0.exe"
       - "C:/Program Files/Git/usr/bin/vendor_perl/clang-scan-deps-21.0"
@@ -3931,6 +4104,9 @@ events:
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang-scan-deps-21.com"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang-scan-deps-21.exe"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang-scan-deps-21"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/clang-scan-deps-21.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/clang-scan-deps-21.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/clang-scan-deps-21"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/clang-scan-deps-21.com"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/clang-scan-deps-21.exe"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/clang-scan-deps-21"
@@ -4000,6 +4176,9 @@ events:
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/clang-scan-deps-21.com"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/clang-scan-deps-21.exe"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/clang-scan-deps-21"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/clang-scan-deps-21.com"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/clang-scan-deps-21.exe"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/clang-scan-deps-21"
       - "C:/Program Files/Git/usr/bin/vendor_perl/clang-scan-deps-21.com"
       - "C:/Program Files/Git/usr/bin/vendor_perl/clang-scan-deps-21.exe"
       - "C:/Program Files/Git/usr/bin/vendor_perl/clang-scan-deps-21"
@@ -4036,6 +4215,9 @@ events:
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang-scan-deps21.com"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang-scan-deps21.exe"
       - "C:/Users/desmo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang-scan-deps21"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/clang-scan-deps21.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/clang-scan-deps21.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/clang-scan-deps21"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/clang-scan-deps21.com"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/clang-scan-deps21.exe"
       - "C:/Program Files/Meta Horizon/Support/oculus-runtime/clang-scan-deps21"
@@ -4105,6 +4287,9 @@ events:
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/clang-scan-deps21.com"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/clang-scan-deps21.exe"
       - "C:/Users/desmo/AppData/Local/Android/Sdk/platform-tools/clang-scan-deps21"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/clang-scan-deps21.com"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/clang-scan-deps21.exe"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/clang-scan-deps21"
       - "C:/Program Files/Git/usr/bin/vendor_perl/clang-scan-deps21.com"
       - "C:/Program Files/Git/usr/bin/vendor_perl/clang-scan-deps21.exe"
       - "C:/Program Files/Git/usr/bin/vendor_perl/clang-scan-deps21"
@@ -4136,6 +4321,7 @@ events:
         - "C:\\Users\\desmo\\bin"
         - "C:\\Users\\desmo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
         - "C:\\Users\\desmo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files\\Meta Horizon\\Support\\oculus-runtime"
         - "C:\\Python313\\Scripts"
         - "C:\\Python313"
@@ -4175,6 +4361,7 @@ events:
         - "C:\\Program Files\\heroku\\bin"
         - "C:\\Users\\desmo\\AppData\\Local\\Android\\Sdk\\platform-tools"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Java\\jdk-25.0.2\\bin"
         - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
         - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
       CMAKE_SYSTEM_PREFIX_PATH:
@@ -4190,8 +4377,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/desmo/Documents/UnityVRTheremin/build-android/CMakeFiles/CMakeScratch/TryCompile-k4qb6u"
-      binary: "C:/Users/desmo/Documents/UnityVRTheremin/build-android/CMakeFiles/CMakeScratch/TryCompile-k4qb6u"
+      source: "C:/Users/desmo/Documents/UnityVRTheremin/audioplugin/build-android/CMakeFiles/CMakeScratch/TryCompile-bs90yo"
+      binary: "C:/Users/desmo/Documents/UnityVRTheremin/audioplugin/build-android/CMakeFiles/CMakeScratch/TryCompile-bs90yo"
     cmakeVariables:
       ANDROID_ABI: "arm64-v8a"
       ANDROID_ARM_MODE: "thumb"
@@ -4212,16 +4399,16 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/desmo/Documents/UnityVRTheremin/build-android/CMakeFiles/CMakeScratch/TryCompile-k4qb6u'
+        Change Dir: 'C:/Users/desmo/Documents/UnityVRTheremin/audioplugin/build-android/CMakeFiles/CMakeScratch/TryCompile-bs90yo'
         
-        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_aba86
-        [1/2] C:\\Users\\desmo\\AppData\\Local\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android29 --sysroot=C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat   -fPIE   -v -MD -MT CMakeFiles/cmTC_aba86.dir/CMakeCCompilerABI.c.o -MF CMakeFiles\\cmTC_aba86.dir\\CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_aba86.dir/CMakeCCompilerABI.c.o -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerABI.c"
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_c1b9d
+        [1/2] C:\\Users\\desmo\\AppData\\Local\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android29 --sysroot=C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat   -fPIE   -v -MD -MT CMakeFiles/cmTC_c1b9d.dir/CMakeCCompilerABI.c.o -MF CMakeFiles\\cmTC_c1b9d.dir\\CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_c1b9d.dir/CMakeCCompilerABI.c.o -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerABI.c"
         Android (13989888, based on r563880c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 5e96669f06077099aa41290cdb4c5e6fa0f59349)
         Target: aarch64-none-linux-android29
         Thread model: posix
         InstalledDir: C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/bin
          (in-process)
-         "C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe" -cc1 -triple aarch64-none-linux-android29 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -enable-tlsdesc -target-cpu generic -target-feature +v8a -target-feature +fp-armv8 -target-feature +neon -target-feature +fix-cortex-a53-835769 -target-abi aapcs -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=C:/Users/desmo/Documents/UnityVRTheremin/build-android/CMakeFiles/CMakeScratch/TryCompile-k4qb6u -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=C:/Users/desmo/Documents/UnityVRTheremin/build-android/CMakeFiles/CMakeScratch/TryCompile-k4qb6u -resource-dir C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21 -dependency-file "CMakeFiles\\\\cmTC_aba86.dir\\\\CMakeCCompilerABI.c.o.d" -MT CMakeFiles/cmTC_aba86.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot -internal-isystem C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/include -internal-isystem C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include -internal-externc-isystem C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include -internal-externc-isystem C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include -Wformat -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_aba86.dir/CMakeCCompilerABI.c.o -x c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerABI.c"
+         "C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe" -cc1 -triple aarch64-none-linux-android29 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -enable-tlsdesc -target-cpu generic -target-feature +v8a -target-feature +fp-armv8 -target-feature +neon -target-feature +fix-cortex-a53-835769 -target-abi aapcs -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=C:/Users/desmo/Documents/UnityVRTheremin/audioplugin/build-android/CMakeFiles/CMakeScratch/TryCompile-bs90yo -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=C:/Users/desmo/Documents/UnityVRTheremin/audioplugin/build-android/CMakeFiles/CMakeScratch/TryCompile-bs90yo -resource-dir C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21 -dependency-file "CMakeFiles\\\\cmTC_c1b9d.dir\\\\CMakeCCompilerABI.c.o.d" -MT CMakeFiles/cmTC_c1b9d.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot -internal-isystem C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/include -internal-isystem C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include -internal-externc-isystem C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include -internal-externc-isystem C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include -Wformat -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_c1b9d.dir/CMakeCCompilerABI.c.o -x c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerABI.c"
         clang -cc1 version 21.0.0 based upon LLVM 21.0.0 default target x86_64-w64-windows-gnu
         ignoring nonexistent directory "C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include"
         ignoring nonexistent directory "C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include"
@@ -4231,12 +4418,12 @@ events:
          C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android
          C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include
         End of search list.
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\desmo\\AppData\\Local\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android29 --sysroot=C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments   -v CMakeFiles/cmTC_aba86.dir/CMakeCCompilerABI.c.o -o cmTC_aba86   && cd ."
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\desmo\\AppData\\Local\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android29 --sysroot=C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments   -v CMakeFiles/cmTC_c1b9d.dir/CMakeCCompilerABI.c.o -o cmTC_c1b9d   && cd ."
         Android (13989888, based on r563880c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 5e96669f06077099aa41290cdb4c5e6fa0f59349)
         Target: aarch64-none-linux-android29
         Thread model: posix
         InstalledDir: C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/bin
-         "C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/bin/ld.lld" --sysroot=C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=16384 --use-android-relr-tags --pack-dyn-relocs=relr --hash-style=gnu --eh-frame-hdr -m aarch64linux -pie -dynamic-linker /system/bin/linker64 -o cmTC_aba86 C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/29/crtbegin_dynamic.o -LC:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/aarch64 -LC:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/29 -LC:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android -LC:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_aba86.dir/CMakeCCompilerABI.c.o C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/29/crtend_android.o
+         "C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/bin/ld.lld" --sysroot=C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=16384 --use-android-relr-tags --pack-dyn-relocs=relr --hash-style=gnu --eh-frame-hdr -m aarch64linux -pie -dynamic-linker /system/bin/linker64 -o cmTC_c1b9d C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/29/crtbegin_dynamic.o -LC:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/aarch64 -LC:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/29 -LC:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android -LC:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_c1b9d.dir/CMakeCCompilerABI.c.o C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/29/crtend_android.o
         
       exitCode: 0
   -
@@ -4269,16 +4456,16 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Users/desmo/Documents/UnityVRTheremin/build-android/CMakeFiles/CMakeScratch/TryCompile-k4qb6u']
+        ignore line: [Change Dir: 'C:/Users/desmo/Documents/UnityVRTheremin/audioplugin/build-android/CMakeFiles/CMakeScratch/TryCompile-bs90yo']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_aba86]
-        ignore line: [[1/2] C:\\Users\\desmo\\AppData\\Local\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android29 --sysroot=C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat   -fPIE   -v -MD -MT CMakeFiles/cmTC_aba86.dir/CMakeCCompilerABI.c.o -MF CMakeFiles\\cmTC_aba86.dir\\CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_aba86.dir/CMakeCCompilerABI.c.o -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerABI.c"]
+        ignore line: [Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_c1b9d]
+        ignore line: [[1/2] C:\\Users\\desmo\\AppData\\Local\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android29 --sysroot=C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat   -fPIE   -v -MD -MT CMakeFiles/cmTC_c1b9d.dir/CMakeCCompilerABI.c.o -MF CMakeFiles\\cmTC_c1b9d.dir\\CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_c1b9d.dir/CMakeCCompilerABI.c.o -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerABI.c"]
         ignore line: [Android (13989888  based on r563880c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 5e96669f06077099aa41290cdb4c5e6fa0f59349)]
         ignore line: [Target: aarch64-none-linux-android29]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/bin]
         ignore line: [ (in-process)]
-        ignore line: [ "C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe" -cc1 -triple aarch64-none-linux-android29 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -enable-tlsdesc -target-cpu generic -target-feature +v8a -target-feature +fp-armv8 -target-feature +neon -target-feature +fix-cortex-a53-835769 -target-abi aapcs -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=C:/Users/desmo/Documents/UnityVRTheremin/build-android/CMakeFiles/CMakeScratch/TryCompile-k4qb6u -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=C:/Users/desmo/Documents/UnityVRTheremin/build-android/CMakeFiles/CMakeScratch/TryCompile-k4qb6u -resource-dir C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21 -dependency-file "CMakeFiles\\\\cmTC_aba86.dir\\\\CMakeCCompilerABI.c.o.d" -MT CMakeFiles/cmTC_aba86.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot -internal-isystem C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/include -internal-isystem C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include -internal-externc-isystem C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include -internal-externc-isystem C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include -Wformat -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_aba86.dir/CMakeCCompilerABI.c.o -x c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerABI.c"]
+        ignore line: [ "C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe" -cc1 -triple aarch64-none-linux-android29 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -enable-tlsdesc -target-cpu generic -target-feature +v8a -target-feature +fp-armv8 -target-feature +neon -target-feature +fix-cortex-a53-835769 -target-abi aapcs -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=C:/Users/desmo/Documents/UnityVRTheremin/audioplugin/build-android/CMakeFiles/CMakeScratch/TryCompile-bs90yo -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=C:/Users/desmo/Documents/UnityVRTheremin/audioplugin/build-android/CMakeFiles/CMakeScratch/TryCompile-bs90yo -resource-dir C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21 -dependency-file "CMakeFiles\\\\cmTC_c1b9d.dir\\\\CMakeCCompilerABI.c.o.d" -MT CMakeFiles/cmTC_c1b9d.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot -internal-isystem C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/include -internal-isystem C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include -internal-externc-isystem C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include -internal-externc-isystem C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include -Wformat -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_c1b9d.dir/CMakeCCompilerABI.c.o -x c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerABI.c"]
         ignore line: [clang -cc1 version 21.0.0 based upon LLVM 21.0.0 default target x86_64-w64-windows-gnu]
         ignore line: [ignoring nonexistent directory "C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include"]
         ignore line: [ignoring nonexistent directory "C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include"]
@@ -4288,12 +4475,12 @@ events:
         ignore line: [ C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android]
         ignore line: [ C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
         ignore line: [End of search list.]
-        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\desmo\\AppData\\Local\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android29 --sysroot=C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -static-libstdc++ -Wl --build-id=sha1 -Wl --no-rosegment -Wl --no-undefined-version -Wl --fatal-warnings -Wl --no-undefined -Qunused-arguments   -v CMakeFiles/cmTC_aba86.dir/CMakeCCompilerABI.c.o -o cmTC_aba86   && cd ."]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\desmo\\AppData\\Local\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android29 --sysroot=C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -static-libstdc++ -Wl --build-id=sha1 -Wl --no-rosegment -Wl --no-undefined-version -Wl --fatal-warnings -Wl --no-undefined -Qunused-arguments   -v CMakeFiles/cmTC_c1b9d.dir/CMakeCCompilerABI.c.o -o cmTC_c1b9d   && cd ."]
         ignore line: [Android (13989888  based on r563880c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 5e96669f06077099aa41290cdb4c5e6fa0f59349)]
         ignore line: [Target: aarch64-none-linux-android29]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/bin]
-        link line: [ "C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/bin/ld.lld" --sysroot=C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=16384 --use-android-relr-tags --pack-dyn-relocs=relr --hash-style=gnu --eh-frame-hdr -m aarch64linux -pie -dynamic-linker /system/bin/linker64 -o cmTC_aba86 C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/29/crtbegin_dynamic.o -LC:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/aarch64 -LC:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/29 -LC:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android -LC:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_aba86.dir/CMakeCCompilerABI.c.o C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/29/crtend_android.o]
+        link line: [ "C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/bin/ld.lld" --sysroot=C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=16384 --use-android-relr-tags --pack-dyn-relocs=relr --hash-style=gnu --eh-frame-hdr -m aarch64linux -pie -dynamic-linker /system/bin/linker64 -o cmTC_c1b9d C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/29/crtbegin_dynamic.o -LC:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/aarch64 -LC:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/29 -LC:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android -LC:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_c1b9d.dir/CMakeCCompilerABI.c.o C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/29/crtend_android.o]
           arg [C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/bin/ld.lld] ==> ignore
           arg [--sysroot=C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot] ==> ignore
           arg [-EL] ==> ignore
@@ -4311,7 +4498,7 @@ events:
           arg [-dynamic-linker] ==> ignore
           arg [/system/bin/linker64] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_aba86] ==> ignore
+          arg [cmTC_c1b9d] ==> ignore
           arg [C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/29/crtbegin_dynamic.o] ==> obj [C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/29/crtbegin_dynamic.o]
           arg [-LC:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/aarch64] ==> dir [C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/aarch64]
           arg [-LC:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/29] ==> dir [C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/29]
@@ -4322,7 +4509,7 @@ events:
           arg [--no-undefined-version] ==> ignore
           arg [--fatal-warnings] ==> ignore
           arg [--no-undefined] ==> ignore
-          arg [CMakeFiles/cmTC_aba86.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_c1b9d.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a] ==> lib [C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a]
           arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
           arg [-ldl] ==> lib [dl]
@@ -4363,8 +4550,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/desmo/Documents/UnityVRTheremin/build-android/CMakeFiles/CMakeScratch/TryCompile-wo7q2u"
-      binary: "C:/Users/desmo/Documents/UnityVRTheremin/build-android/CMakeFiles/CMakeScratch/TryCompile-wo7q2u"
+      source: "C:/Users/desmo/Documents/UnityVRTheremin/audioplugin/build-android/CMakeFiles/CMakeScratch/TryCompile-zqhrnv"
+      binary: "C:/Users/desmo/Documents/UnityVRTheremin/audioplugin/build-android/CMakeFiles/CMakeScratch/TryCompile-zqhrnv"
     cmakeVariables:
       ANDROID_ABI: "arm64-v8a"
       ANDROID_ARM_MODE: "thumb"
@@ -4386,16 +4573,16 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/desmo/Documents/UnityVRTheremin/build-android/CMakeFiles/CMakeScratch/TryCompile-wo7q2u'
+        Change Dir: 'C:/Users/desmo/Documents/UnityVRTheremin/audioplugin/build-android/CMakeFiles/CMakeScratch/TryCompile-zqhrnv'
         
-        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_d61f8
-        [1/2] C:\\Users\\desmo\\AppData\\Local\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android29 --sysroot=C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat    -fPIE   -v -MD -MT CMakeFiles/cmTC_d61f8.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles\\cmTC_d61f8.dir\\CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_d61f8.dir/CMakeCXXCompilerABI.cpp.o -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp"
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_f0f5d
+        [1/2] C:\\Users\\desmo\\AppData\\Local\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android29 --sysroot=C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat    -fPIE   -v -MD -MT CMakeFiles/cmTC_f0f5d.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles\\cmTC_f0f5d.dir\\CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_f0f5d.dir/CMakeCXXCompilerABI.cpp.o -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp"
         Android (13989888, based on r563880c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 5e96669f06077099aa41290cdb4c5e6fa0f59349)
         Target: aarch64-none-linux-android29
         Thread model: posix
         InstalledDir: C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/bin
          (in-process)
-         "C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe" -cc1 -triple aarch64-none-linux-android29 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -enable-tlsdesc -target-cpu generic -target-feature +v8a -target-feature +fp-armv8 -target-feature +neon -target-feature +fix-cortex-a53-835769 -target-abi aapcs -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=C:/Users/desmo/Documents/UnityVRTheremin/build-android/CMakeFiles/CMakeScratch/TryCompile-wo7q2u -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=C:/Users/desmo/Documents/UnityVRTheremin/build-android/CMakeFiles/CMakeScratch/TryCompile-wo7q2u -resource-dir C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21 -dependency-file "CMakeFiles\\\\cmTC_d61f8.dir\\\\CMakeCXXCompilerABI.cpp.o.d" -MT CMakeFiles/cmTC_d61f8.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot -internal-isystem C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1 -internal-isystem C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/include -internal-isystem C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include -internal-externc-isystem C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include -internal-externc-isystem C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include -Wformat -fdeprecated-macro -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_d61f8.dir/CMakeCXXCompilerABI.cpp.o -x c++ "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp"
+         "C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe" -cc1 -triple aarch64-none-linux-android29 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -enable-tlsdesc -target-cpu generic -target-feature +v8a -target-feature +fp-armv8 -target-feature +neon -target-feature +fix-cortex-a53-835769 -target-abi aapcs -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=C:/Users/desmo/Documents/UnityVRTheremin/audioplugin/build-android/CMakeFiles/CMakeScratch/TryCompile-zqhrnv -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=C:/Users/desmo/Documents/UnityVRTheremin/audioplugin/build-android/CMakeFiles/CMakeScratch/TryCompile-zqhrnv -resource-dir C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21 -dependency-file "CMakeFiles\\\\cmTC_f0f5d.dir\\\\CMakeCXXCompilerABI.cpp.o.d" -MT CMakeFiles/cmTC_f0f5d.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot -internal-isystem C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1 -internal-isystem C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/include -internal-isystem C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include -internal-externc-isystem C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include -internal-externc-isystem C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include -Wformat -fdeprecated-macro -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_f0f5d.dir/CMakeCXXCompilerABI.cpp.o -x c++ "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp"
         clang -cc1 version 21.0.0 based upon LLVM 21.0.0 default target x86_64-w64-windows-gnu
         ignoring nonexistent directory "C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include"
         ignoring nonexistent directory "C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include"
@@ -4406,12 +4593,12 @@ events:
          C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android
          C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include
         End of search list.
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\desmo\\AppData\\Local\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android29 --sysroot=C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments   -v CMakeFiles/cmTC_d61f8.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d61f8   && cd ."
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\desmo\\AppData\\Local\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android29 --sysroot=C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments   -v CMakeFiles/cmTC_f0f5d.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_f0f5d   && cd ."
         Android (13989888, based on r563880c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 5e96669f06077099aa41290cdb4c5e6fa0f59349)
         Target: aarch64-none-linux-android29
         Thread model: posix
         InstalledDir: C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/bin
-         "C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/bin/ld.lld" --sysroot=C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=16384 --use-android-relr-tags --pack-dyn-relocs=relr --hash-style=gnu --eh-frame-hdr -m aarch64linux -pie -dynamic-linker /system/bin/linker64 -o cmTC_d61f8 C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/29/crtbegin_dynamic.o -LC:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/aarch64 -LC:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/29 -LC:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android -LC:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_d61f8.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/29/crtend_android.o
+         "C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/bin/ld.lld" --sysroot=C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=16384 --use-android-relr-tags --pack-dyn-relocs=relr --hash-style=gnu --eh-frame-hdr -m aarch64linux -pie -dynamic-linker /system/bin/linker64 -o cmTC_f0f5d C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/29/crtbegin_dynamic.o -LC:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/aarch64 -LC:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/29 -LC:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android -LC:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_f0f5d.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/29/crtend_android.o
         
       exitCode: 0
   -
@@ -4446,16 +4633,16 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Users/desmo/Documents/UnityVRTheremin/build-android/CMakeFiles/CMakeScratch/TryCompile-wo7q2u']
+        ignore line: [Change Dir: 'C:/Users/desmo/Documents/UnityVRTheremin/audioplugin/build-android/CMakeFiles/CMakeScratch/TryCompile-zqhrnv']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_d61f8]
-        ignore line: [[1/2] C:\\Users\\desmo\\AppData\\Local\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android29 --sysroot=C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat    -fPIE   -v -MD -MT CMakeFiles/cmTC_d61f8.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles\\cmTC_d61f8.dir\\CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_d61f8.dir/CMakeCXXCompilerABI.cpp.o -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_f0f5d]
+        ignore line: [[1/2] C:\\Users\\desmo\\AppData\\Local\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android29 --sysroot=C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat    -fPIE   -v -MD -MT CMakeFiles/cmTC_f0f5d.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles\\cmTC_f0f5d.dir\\CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_f0f5d.dir/CMakeCXXCompilerABI.cpp.o -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp"]
         ignore line: [Android (13989888  based on r563880c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 5e96669f06077099aa41290cdb4c5e6fa0f59349)]
         ignore line: [Target: aarch64-none-linux-android29]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/bin]
         ignore line: [ (in-process)]
-        ignore line: [ "C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe" -cc1 -triple aarch64-none-linux-android29 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -enable-tlsdesc -target-cpu generic -target-feature +v8a -target-feature +fp-armv8 -target-feature +neon -target-feature +fix-cortex-a53-835769 -target-abi aapcs -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=C:/Users/desmo/Documents/UnityVRTheremin/build-android/CMakeFiles/CMakeScratch/TryCompile-wo7q2u -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=C:/Users/desmo/Documents/UnityVRTheremin/build-android/CMakeFiles/CMakeScratch/TryCompile-wo7q2u -resource-dir C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21 -dependency-file "CMakeFiles\\\\cmTC_d61f8.dir\\\\CMakeCXXCompilerABI.cpp.o.d" -MT CMakeFiles/cmTC_d61f8.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot -internal-isystem C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1 -internal-isystem C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/include -internal-isystem C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include -internal-externc-isystem C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include -internal-externc-isystem C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include -Wformat -fdeprecated-macro -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_d61f8.dir/CMakeCXXCompilerABI.cpp.o -x c++ "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp"]
+        ignore line: [ "C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe" -cc1 -triple aarch64-none-linux-android29 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -enable-tlsdesc -target-cpu generic -target-feature +v8a -target-feature +fp-armv8 -target-feature +neon -target-feature +fix-cortex-a53-835769 -target-abi aapcs -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=C:/Users/desmo/Documents/UnityVRTheremin/audioplugin/build-android/CMakeFiles/CMakeScratch/TryCompile-zqhrnv -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=C:/Users/desmo/Documents/UnityVRTheremin/audioplugin/build-android/CMakeFiles/CMakeScratch/TryCompile-zqhrnv -resource-dir C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21 -dependency-file "CMakeFiles\\\\cmTC_f0f5d.dir\\\\CMakeCXXCompilerABI.cpp.o.d" -MT CMakeFiles/cmTC_f0f5d.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot -internal-isystem C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1 -internal-isystem C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/include -internal-isystem C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include -internal-externc-isystem C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include -internal-externc-isystem C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include -Wformat -fdeprecated-macro -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_f0f5d.dir/CMakeCXXCompilerABI.cpp.o -x c++ "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp"]
         ignore line: [clang -cc1 version 21.0.0 based upon LLVM 21.0.0 default target x86_64-w64-windows-gnu]
         ignore line: [ignoring nonexistent directory "C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include"]
         ignore line: [ignoring nonexistent directory "C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include"]
@@ -4466,12 +4653,12 @@ events:
         ignore line: [ C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android]
         ignore line: [ C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
         ignore line: [End of search list.]
-        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\desmo\\AppData\\Local\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android29 --sysroot=C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -static-libstdc++ -Wl --build-id=sha1 -Wl --no-rosegment -Wl --no-undefined-version -Wl --fatal-warnings -Wl --no-undefined -Qunused-arguments   -v CMakeFiles/cmTC_d61f8.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d61f8   && cd ."]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\desmo\\AppData\\Local\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android29 --sysroot=C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -static-libstdc++ -Wl --build-id=sha1 -Wl --no-rosegment -Wl --no-undefined-version -Wl --fatal-warnings -Wl --no-undefined -Qunused-arguments   -v CMakeFiles/cmTC_f0f5d.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_f0f5d   && cd ."]
         ignore line: [Android (13989888  based on r563880c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 5e96669f06077099aa41290cdb4c5e6fa0f59349)]
         ignore line: [Target: aarch64-none-linux-android29]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/bin]
-        link line: [ "C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/bin/ld.lld" --sysroot=C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=16384 --use-android-relr-tags --pack-dyn-relocs=relr --hash-style=gnu --eh-frame-hdr -m aarch64linux -pie -dynamic-linker /system/bin/linker64 -o cmTC_d61f8 C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/29/crtbegin_dynamic.o -LC:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/aarch64 -LC:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/29 -LC:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android -LC:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_d61f8.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/29/crtend_android.o]
+        link line: [ "C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/bin/ld.lld" --sysroot=C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=16384 --use-android-relr-tags --pack-dyn-relocs=relr --hash-style=gnu --eh-frame-hdr -m aarch64linux -pie -dynamic-linker /system/bin/linker64 -o cmTC_f0f5d C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/29/crtbegin_dynamic.o -LC:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/aarch64 -LC:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/29 -LC:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android -LC:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_f0f5d.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/29/crtend_android.o]
           arg [C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/bin/ld.lld] ==> ignore
           arg [--sysroot=C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot] ==> ignore
           arg [-EL] ==> ignore
@@ -4489,7 +4676,7 @@ events:
           arg [-dynamic-linker] ==> ignore
           arg [/system/bin/linker64] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_d61f8] ==> ignore
+          arg [cmTC_f0f5d] ==> ignore
           arg [C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/29/crtbegin_dynamic.o] ==> obj [C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/29/crtbegin_dynamic.o]
           arg [-LC:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/aarch64] ==> dir [C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/aarch64]
           arg [-LC:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/29] ==> dir [C:/Users/desmo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/29]
@@ -4500,7 +4687,7 @@ events:
           arg [--no-undefined-version] ==> ignore
           arg [--fatal-warnings] ==> ignore
           arg [--no-undefined] ==> ignore
-          arg [CMakeFiles/cmTC_d61f8.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_f0f5d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-Bstatic] ==> search static
           arg [-lc++] ==> lib [c++]
           arg [-Bdynamic] ==> search dynamic
