@@ -13,6 +13,7 @@ enum Param
     P_NUM
 };
 //creates an interface to control the oscillator inside unity
+extern "C" UNITY_AUDIODSP_EXPORT_API
 int InternalRegisterEffectDefinition(UnityAudioEffectDefinition& definition)
 {
     int numparams = P_NUM;
@@ -33,6 +34,7 @@ struct OscData{
 };
 
 //initialise oscillator
+extern "C" UNITY_AUDIODSP_EXPORT_API
 UNITY_AUDIODSP_RESULT UNITY_AUDIODSP_CALLBACK CreateCallback(UnityAudioEffectState* state){
     OscData* data = new OscData();
     data->sample_rate = state->samplerate; //48000hz 
@@ -43,7 +45,7 @@ UNITY_AUDIODSP_RESULT UNITY_AUDIODSP_CALLBACK CreateCallback(UnityAudioEffectSta
     return UNITY_AUDIODSP_OK;
 }
 
-
+extern "C" UNITY_AUDIODSP_EXPORT_API
 UNITY_AUDIODSP_RESULT UNITY_AUDIODSP_CALLBACK ProcessCallback(
     UnityAudioEffectState* state,
     //incoming audio, can be ignored as the oscillator only produces audio
@@ -85,8 +87,10 @@ UNITY_AUDIODSP_RESULT UNITY_AUDIODSP_CALLBACK ProcessCallback(
 }
 
 //clean-up
+extern "C" UNITY_AUDIODSP_EXPORT_API
 UNITY_AUDIODSP_RESULT UNITY_AUDIODSP_CALLBACK ReleaseCallback(UnityAudioEffectState* state){
     OscData* data = state->GetEffectData<OscData>();
     delete data;
     return UNITY_AUDIODSP_OK;
 }
+
