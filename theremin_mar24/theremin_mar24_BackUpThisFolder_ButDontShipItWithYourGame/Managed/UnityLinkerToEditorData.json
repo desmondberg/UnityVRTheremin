@@ -1169,6 +1169,18 @@
         "name": "Physics2D",
         "dependencies": [
           {
+            "name": "Collider2D",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "Joint2D",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "Physics2DSettings",
             "scenes": [],
             "dependencyType": 1,

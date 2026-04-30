@@ -1,0 +1,10 @@
+# ninja log v5
+33	3736	7962286633809101	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	28f4ca9971b23f66
+27	3780	7962286634838694	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	b85e52d99617d1cd
+50	3784	7962286635092516	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	2f49fb43593fd4f3
+39	3801	7962286635775096	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	73fb3e933e372a16
+56	3929	7962286637693161	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	b1fd7c144f9c59a3
+16	4038	7962286638702227	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	8f4e96039a7babba
+45	4309	7962286641528414	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	b977e2ecb7f4f5e9
+1	4555	7962286643976582	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	bcd1d46d2f574e3
+4555	4798	7962286646457478	C:/Users/desmo/Documents/UnityVRTheremin/theremin_mar24/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/Debug/2e6q4hw4/obj/arm64-v8a/libgame.so	9f5262c2ae5e7f51

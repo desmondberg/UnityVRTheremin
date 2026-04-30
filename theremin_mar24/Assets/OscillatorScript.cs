@@ -1,3 +1,4 @@
+
 using System;
 using TMPro;
 using Unity.VisualScripting;
@@ -21,8 +22,9 @@ public class OscillatorScript : MonoBehaviour
     private double _phase;
     private int _sampleRate;
     [SerializeField, Range(0, 1)] private float amplitude = 0.5f;
-    [SerializeField] private float frequency = 440.0f;
+    private float frequency = 440.0f;
     private float currentFrequency;
+
     private volatile bool playing;
 
 
@@ -46,8 +48,8 @@ public class OscillatorScript : MonoBehaviour
     public float maxRoll = 60f;
 
     [Header("Pitch Distance Mapping")]
-    public float minDistance = 0.1f;
-    public float maxDistance = 0.6f;
+    public float minDistance = 0.04f;
+    public float maxDistance = 0.4f;
 
 
     [Range(-12f, 24f)] public float pitch; 
@@ -55,8 +57,94 @@ public class OscillatorScript : MonoBehaviour
     [Range(0f, 10f)] public float vibratoRate;
 
 
-    public TMP_Text debugText;
-    
+    public TMP_Text pitchDebugText;
+    public TMP_Text scaleManagerDebugText;
+    public TMP_Text handPositionDebugText;
+
+
+    //wavetable variables
+    //[SerializeField] private int wavetable_length = 256;
+    [SerializeField] private int wavetable_length = 2048;
+    private float[] wavetable;
+
+    public enum WaveType
+    {
+        Sine,
+        Saw,
+        Square,
+        Triangle
+    }
+    public WaveType waveType;
+    WaveType currentWaveType;
+
+    public AnimationCurve pitchCurve;
+
+    private GlobalScaleManager scaleManager => GlobalScaleManager.Instance;
+
+    public void SetWavetable(float[] newTable)
+    {
+        //prevent table from mismatched length from being copied
+        if (newTable.Length != wavetable_length)
+        {
+            return;
+        }
+
+        System.Array.Copy(newTable, wavetable, newTable.Length);
+    }
+    public void SetWaveform(int type)
+    {
+        switch (type)
+        {
+            case 0:
+                currentWaveType=WaveType.Sine;
+                break;
+            case 1:
+                currentWaveType = WaveType.Saw;
+                break;
+            case 2:
+                currentWaveType = WaveType.Square;
+                break;
+            case 3:
+                currentWaveType = WaveType.Triangle;
+                break;
+            default:
+                currentWaveType = WaveType.Sine;
+                break;
+        }
+    }
+    void GenerateWavetable(WaveType type)
+    {
+        for (int n = 0; n < wavetable_length; n++)
+        {
+            float sample;
+
+            switch (type)
+            {
+                case WaveType.Saw:
+                    sample = 2f * (n / (float)wavetable_length) - 1f;
+                    break;
+
+                case WaveType.Square:
+                    sample = n < (wavetable_length / 2) ? 1f : -1f;
+                    break;
+                case WaveType.Triangle:
+                    {
+                        float x = n / (float)wavetable_length;
+                        sample = 1f - 4f * Mathf.Abs(x - 0.5f);
+                        break;
+                    }
+                case WaveType.Sine:
+                default:
+                    sample = Mathf.Sin(2 * Mathf.PI * n / wavetable_length);
+                    break;
+            }
+
+            wavetable[n] = sample;
+        }
+    }
+
+
+
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -65,16 +153,45 @@ public class OscillatorScript : MonoBehaviour
         baseCol = tBase.GetComponent<CapsuleCollider>();
         _sampleRate = AudioSettings.outputSampleRate;
 
+        wavetable = new float[wavetable_length];
+
+        currentWaveType = waveType;
+        GenerateWavetable(waveType);
+
+        //set volume
         if (volumeSlider != null)
         {
             amplitude = volumeSlider.value;
             volumeSlider.onValueChanged.AddListener(OnVolumeChanged);
         }
+
+        if (GlobalScaleManager.Instance == null)
+        {
+            Debug.LogWarning("GlobalScaleManager not ready yet");
+        }
+
+
     }
 
     // Update is called once per frame
     void Update()
     {
+        //set scale manager status
+        try
+        {
+            scaleManagerDebugText.text = $"Scale Snapping: {(scaleManager.snapIsActive ? "On" : "Off")} \n Current Scale: {scaleManager.rootValueToNote[scaleManager.currentScale.rootNote]} {scaleManager.currentScale.scaleName}";
+        }
+        catch (Exception ex)
+        {
+            scaleManagerDebugText.text = ex.ToSafeString();
+        }
+
+
+        if (waveType != currentWaveType)
+        {
+            currentWaveType = waveType;
+            GenerateWavetable(waveType);
+        }
         bool pitchControllerActive = false;
         bool modControllerActive = false;
 
@@ -89,14 +206,25 @@ public class OscillatorScript : MonoBehaviour
             float distance = Vector3.Distance(controllerPos, antennaPos);
             distance = Mathf.Max(distance, minDistance);
 
-            float t = Mathf.InverseLerp(minDistance, maxDistance, distance);
-            t = 1f - t;
+            //-0.1f to give some space at the end where the user can play the lowest pitch without it cutting off
+            float t = Mathf.InverseLerp(minDistance, maxDistance-0.1f, distance);
+            //t = 1f - t;
 
-            pitch = Mathf.Lerp(-12f, 24f, t);
+            pitch = Mathf.Lerp(-24f, 12f, pitchCurve.Evaluate(t));
 
-            currentFrequency = frequency * Mathf.Pow(2f, pitch / 12f);
+            //calculation with animation curve
+            //float t = Mathf.InverseLerp(minDistance, maxDistance, distance);
+            //t = 1f - t;
 
-            if(Vector3.Distance(controllerPos, antennaPos) < maxDistance)
+            //float curved = pitchCurve.Evaluate(t);
+
+            //pitch = Mathf.Lerp(-12f, 24f, curved);
+
+            float calculatedFreq = frequency * Mathf.Pow(2f, pitch / 12f);
+
+
+            currentFrequency = calculatedFreq;
+            if (Vector3.Distance(controllerPos, antennaPos) < maxDistance)
             {
                 pitchControllerActive = true;
             }
@@ -128,7 +256,11 @@ public class OscillatorScript : MonoBehaviour
 
 
         }
-        setDebugText(pitchControllerActive, modControllerActive);
+        //set pitch info status
+        pitchDebugText.text = $"Pitch:{pitch}, current freq: {currentFrequency} \n Vib rate:{vibratoRate}, Vib depth:{vibratoDepth}";
+        //set hand position status
+        handPositionDebugText.text = $"Pitch Controller active? {(pitchControllerActive ? "Yup" : "Nope")} \n Mod Controller active? {(modControllerActive ? "Yup" : "Nope")}";
+        
         if (!pitchControllerActive || !modControllerActive)
         {
             playing = false;
@@ -139,10 +271,11 @@ public class OscillatorScript : MonoBehaviour
         }
     }
 
-    void setDebugText(bool pitchControllerActive, bool modControllerActive)
+    void snapFrequencyToScale(float frequency)
     {
-        debugText.text = $"Pitch controller active?: {(pitchControllerActive ? "Yep" : "Nope")}, Mod controller active?: {(modControllerActive ? "Yep" : "Nope")}, Pitch:{pitch:F2}, Vib Depth:{vibratoDepth:F2}, Vib Rate:{vibratoRate:F2} Amplitude: {amplitude:F2}";
+
     }
+
 
 
 
@@ -166,12 +299,24 @@ public class OscillatorScript : MonoBehaviour
                 float vibrato = Mathf.Sin((float)_vibratoPhase * 2 * Mathf.PI);
 
                 float vibratoSteps = vibrato * vibratoDepth * 2f;
-                //pitch calculated logarithmically
+               
                 double freqWithVibrato = currentFrequency * Mathf.Pow(2f, vibratoSteps / 12f);
 
                 double phaseIncrement = freqWithVibrato / _sampleRate;
                 _phase = (_phase + phaseIncrement) % 1;
-                float currentPhase = Mathf.Sin((float)_phase * 2 * Mathf.PI) * amplitude;
+
+                //wavetable lookup
+                float index = (float)_phase * (wavetable_length - 1);
+
+                ////pick two indexes, and interpolate to get the final phase
+                int i1 = (int)index;
+                int i2 = (i1 + 1) % wavetable_length;
+
+                float indexFrac = index - i1;
+                float sampleVal = Mathf.Lerp(wavetable[i1], wavetable[i2], indexFrac);
+
+
+                float currentPhase = sampleVal * amplitude;
 
                 for (int channel = 0; channel < channels; channel++)
                 {
@@ -180,4 +325,5 @@ public class OscillatorScript : MonoBehaviour
             }
         }
     }
+
 }

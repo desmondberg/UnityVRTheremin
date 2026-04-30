@@ -1,0 +1,5 @@
+C:/Users/desmo/Documents/UnityVRTheremin/theremin_mar24/.utmp/Debug/2e6q4hw4/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/desmo/Documents/UnityVRTheremin/theremin_mar24/.utmp/Debug/2e6q4hw4/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/Users/desmo/Documents/UnityVRTheremin/theremin_mar24/.utmp/Debug/2e6q4hw4/arm64-v8a/GameActivity/CMakeFiles/game.dir
+C:/Users/desmo/Documents/UnityVRTheremin/theremin_mar24/.utmp/Debug/2e6q4hw4/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+C:/Users/desmo/Documents/UnityVRTheremin/theremin_mar24/.utmp/Debug/2e6q4hw4/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
