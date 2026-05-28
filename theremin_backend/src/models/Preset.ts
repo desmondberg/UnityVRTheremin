@@ -6,17 +6,25 @@ const presetSchema = new Schema({
   description: { type: String },
   author: { type: Schema.Types.ObjectId, ref: 'User', required: true },
   tags: [{ type: String }],
-  upvotes: { type: Number, default: 0 },
-  downvotes: { type: Number, default: 0 },
+  votes: [{
+    user: {
+      type: Schema.Types.ObjectId,
+      ref: "User"
+    },
+    value: {
+      type: Number // 1 or -1
+    }
+  }],
   comments: [{
     user: { type: Schema.Types.ObjectId, ref: 'User', required: true },
     content: { type: String, required: true },
   }],
 
   waveform: { type: Schema.Types.ObjectId, ref: 'Waveform', required: true },
-  scale: { type: Schema.Types.ObjectId, ref: 'Scale' }
- 
-  
+  scale: { type: Schema.Types.ObjectId, ref: 'Scale' },
+  pitchcurve: { type: Schema.Types.ObjectId, ref: 'Pitchcurve', required: true }
+
+
 
 }, {
   timestamps: true

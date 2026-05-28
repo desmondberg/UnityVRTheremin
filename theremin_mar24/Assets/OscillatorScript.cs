@@ -69,17 +69,22 @@ public class OscillatorScript : MonoBehaviour
 
     public enum WaveType
     {
-        Sine,
-        Saw,
-        Square,
-        Triangle
+        SINE,
+        SAW,
+        SQUARE,
+        TRIANGLE
     }
     public WaveType waveType;
     WaveType currentWaveType;
 
     public AnimationCurve pitchCurve;
+    //implement setPitchCurve
 
-    private GlobalScaleManager scaleManager => GlobalScaleManager.Instance;
+    //private GlobalScaleManager scaleManager => GlobalScaleManager.Instance;
+
+    [SerializeField] private ScaleManager scaleManager;
+
+    public TMP_Text GlobalDebugText;
 
     public void SetWavetable(float[] newTable)
     {
@@ -96,19 +101,42 @@ public class OscillatorScript : MonoBehaviour
         switch (type)
         {
             case 0:
-                currentWaveType=WaveType.Sine;
+                currentWaveType=WaveType.SINE;
                 break;
             case 1:
-                currentWaveType = WaveType.Saw;
+                currentWaveType = WaveType.SAW;
                 break;
             case 2:
-                currentWaveType = WaveType.Square;
+                currentWaveType = WaveType.SQUARE;
                 break;
             case 3:
-                currentWaveType = WaveType.Triangle;
+                currentWaveType = WaveType.TRIANGLE;
                 break;
             default:
-                currentWaveType = WaveType.Sine;
+                currentWaveType = WaveType.SINE;
+                break;
+        }
+    }
+
+    //overload for view preset handler
+    public void SetWaveform(string type)
+    {
+        switch (type)
+        {
+            case "SINE":
+                currentWaveType = WaveType.SINE;
+                break;
+            case "SAW":
+                currentWaveType = WaveType.SAW;
+                break;
+            case "SQUARE":
+                currentWaveType = WaveType.SQUARE;
+                break;
+            case "TRIANGLE":
+                currentWaveType = WaveType.TRIANGLE;
+                break;
+            default:
+                currentWaveType = WaveType.SINE;
                 break;
         }
     }
@@ -120,20 +148,20 @@ public class OscillatorScript : MonoBehaviour
 
             switch (type)
             {
-                case WaveType.Saw:
+                case WaveType.SAW:
                     sample = 2f * (n / (float)wavetable_length) - 1f;
                     break;
 
-                case WaveType.Square:
+                case WaveType.SQUARE:
                     sample = n < (wavetable_length / 2) ? 1f : -1f;
                     break;
-                case WaveType.Triangle:
+                case WaveType.TRIANGLE:
                     {
                         float x = n / (float)wavetable_length;
                         sample = 1f - 4f * Mathf.Abs(x - 0.5f);
                         break;
                     }
-                case WaveType.Sine:
+                case WaveType.SINE:
                 default:
                     sample = Mathf.Sin(2 * Mathf.PI * n / wavetable_length);
                     break;
@@ -158,33 +186,38 @@ public class OscillatorScript : MonoBehaviour
         currentWaveType = waveType;
         GenerateWavetable(waveType);
 
-        //set volume
         if (volumeSlider != null)
         {
             amplitude = volumeSlider.value;
             volumeSlider.onValueChanged.AddListener(OnVolumeChanged);
         }
 
-        if (GlobalScaleManager.Instance == null)
-        {
-            Debug.LogWarning("GlobalScaleManager not ready yet");
-        }
+        scaleManager.OnScaleChanged += OnScaleChanged;
+
+    }
 
 
+    private void OnScaleChanged(Scale scale)
+    {
+        GlobalDebugText.text = $"New scale: {scale.scaleName}";
     }
 
     // Update is called once per frame
     void Update()
     {
-        //set scale manager status
-        try
+        if (scaleManager != null)
         {
-            scaleManagerDebugText.text = $"Scale Snapping: {(scaleManager.snapIsActive ? "On" : "Off")} \n Current Scale: {scaleManager.rootValueToNote[scaleManager.currentScale.rootNote]} {scaleManager.currentScale.scaleName}";
+            //set scale manager status
+            try
+            {
+                scaleManagerDebugText.text = $"Scale Snapping: {(scaleManager.snapIsActive ? "On" : "Off")} \n Current Scale: {scaleManager.rootValueToNote[scaleManager.currentScale.rootNote]} {scaleManager.currentScale.scaleName}";
+            }
+            catch (Exception ex)
+            {
+                scaleManagerDebugText.text = ex.ToSafeString();
+            }
         }
-        catch (Exception ex)
-        {
-            scaleManagerDebugText.text = ex.ToSafeString();
-        }
+
 
 
         if (waveType != currentWaveType)
@@ -210,7 +243,7 @@ public class OscillatorScript : MonoBehaviour
             float t = Mathf.InverseLerp(minDistance, maxDistance-0.1f, distance);
             //t = 1f - t;
 
-            pitch = Mathf.Lerp(-24f, 12f, pitchCurve.Evaluate(t));
+            pitch = Mathf.Lerp(12f, -24f, pitchCurve.Evaluate(t));
 
             //calculation with animation curve
             //float t = Mathf.InverseLerp(minDistance, maxDistance, distance);
@@ -221,6 +254,12 @@ public class OscillatorScript : MonoBehaviour
             //pitch = Mathf.Lerp(-12f, 24f, curved);
 
             float calculatedFreq = frequency * Mathf.Pow(2f, pitch / 12f);
+
+            //snapping  
+            if (scaleManager.snapIsActive)
+            {
+                calculatedFreq = snapFrequencyToScale(calculatedFreq);
+            }
 
 
             currentFrequency = calculatedFreq;
@@ -257,7 +296,7 @@ public class OscillatorScript : MonoBehaviour
 
         }
         //set pitch info status
-        pitchDebugText.text = $"Pitch:{pitch}, current freq: {currentFrequency} \n Vib rate:{vibratoRate}, Vib depth:{vibratoDepth}";
+        pitchDebugText.text = $"Scale Snap: {scaleManager.snapIsActive} \n Pitch:{pitch}, current freq: {currentFrequency} \n Vib rate:{vibratoRate}, Vib depth:{vibratoDepth}";
         //set hand position status
         handPositionDebugText.text = $"Pitch Controller active? {(pitchControllerActive ? "Yup" : "Nope")} \n Mod Controller active? {(modControllerActive ? "Yup" : "Nope")}";
         
@@ -271,9 +310,45 @@ public class OscillatorScript : MonoBehaviour
         }
     }
 
-    void snapFrequencyToScale(float frequency)
-    {
+    //PITCH SNAPPING FUNCTIONS
 
+    float distanceInSteps(float freq1, float freq2)
+    {
+        return (float)(12 * Math.Log((freq1 / freq2),2));
+    }
+
+    float snapFrequencyToScale(float frequency)
+    {
+        float[] rootNotes = { 261.63f, 277.18f, 293.66f, 311.13f, 329.63f, 349.23f, 369.99f, 392.00f, 415.30f, 440.00f, 466.16f, 493.88f };
+        Scale scale = scaleManager.currentScale;
+
+        float rootNoteFreq = rootNotes[scale.rootNote];
+
+        int closest = scale.intervals[0];
+        double minDistance = double.PositiveInfinity;
+
+        //get distance relative to root note
+        float distanceFromRoot = distanceInSteps(frequency, rootNoteFreq);
+        float totalSteps = scale.rootNote + distanceFromRoot;
+
+        double octave = Math.Floor(totalSteps / 12);
+        float position = ((totalSteps % 12) + 12) % 12;
+
+        foreach (int interval in scale.intervals)
+        {
+            float dist = Math.Abs(position - interval);
+
+              if (dist < minDistance)
+                        {
+                minDistance = dist;
+                closest = interval;
+              }
+        }
+
+        double snappedSteps = octave * 12 + closest;
+        float snappedFreq = (float)(rootNoteFreq * Math.Pow(2, snappedSteps / 12));
+
+        return snappedFreq;
     }
 
 

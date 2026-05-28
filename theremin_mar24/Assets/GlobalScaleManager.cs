@@ -20,8 +20,11 @@ public class GlobalScaleManager : MonoBehaviour
         snapIsActive = false;
         if (Instance != null && Instance != this)
         {
-            Destroy(gameObject);
-            return;
+            Destroy(this);
+        }
+        else
+        {
+            Instance = this;
         }
         Instance = this;
         currentScale = new Scale("Chromatic", 0, CHROMATIC);

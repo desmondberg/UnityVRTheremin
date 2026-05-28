@@ -2,9 +2,9 @@ import mongoose from 'mongoose';
 const { Schema, model } = mongoose;
 
 const userSchema = new Schema({
-    username: String,
-    email: String,
-    password: String,
+    username: {type:String,required:true},
+    email: {type:String,required:true},
+    password: {type:String,required:true},
     presets: [{ type: Schema.Types.ObjectId, ref: 'Preset' }]
 }, {
     timestamps: true
